@@ -24,9 +24,35 @@
             <ul>
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./opportunities.html">Opportunities</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="#" active>Contact Us</a></li>
             </ul>
         </nav>
     </header>
+    <main>
+        <div class="wrapper">
+            <img src="images/opportunity_1368x912.jpg" alt="Job opportunities" width="768px">
+            <h1>Contact Us</h1>
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Your Info</legend>
+                    <label for="first-name">First Name: <input type="text" name="first-name" id="first-name"></label>
+                    <label for="last-name">Last Name: <input type="text" name="last-name" id="last-name"></label>
+                    <label for="email">Email: <input type="email" name="email" id="email"></label>
+                    <label for="telephone">Telephone: <input type="tel" name="telephone" id="telephone"></label>
+                </fieldset>
+
+                <label for="who">What best describes you?</label>
+                <input list="whoru" name="who" id="who">
+                
+                <datalist id="whoru">
+                  <option value="Supplier">
+                  <option value="Customer">
+                  <option value="Other">
+                </datalist> 
+                <button>Submit</button>
+            </form>
+        </div>
+
+    </main>
 
 </body></html>

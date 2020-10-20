@@ -138,8 +138,6 @@ footer {
     padding: .3rem;
 }
 
-.black-header { color: black; }
-
 /* The Form */
 
 form {
@@ -172,7 +170,9 @@ fieldset {
     margin-bottom: 2rem;
 }
 
-
+[active] {
+    color: #f64e0f;
+}
 
 
 
