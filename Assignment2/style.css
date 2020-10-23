@@ -13,6 +13,7 @@
 /*      Colors 
 
     Janvey Orange: #f64e0f
+    Contrast Orange: #A23006
 
 */
 
@@ -118,7 +119,7 @@ main {
 
 .wrapper h1 {
     font-size: 3rem;
-    color: #f64e0f;
+    color: #A23006;
 }
 
 /* Footer */

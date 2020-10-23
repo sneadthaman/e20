@@ -1,0 +1,52 @@
+1. Provide a link to the first page of your website: http://e20.samjanvey.com/e20/Assignment2/index.html
+
+My site looks the way I want on (choose one): PC
+
+With this browser (choose one): Chrome 
+
+
+FLOATS & POSITIONING (50% of grade)
+Provide URL(s) and starting line number(s) for HTML and CSS for each item.
+
+2. My standard navigation bar linking pages together (list one HTML page where this starts plus corresponding CSS line number(s)): index.html, Line 51-93 style.css
+
+3. Two floats and clears: 3 floats in the nav (index.html lines 16-30) with a clear on line 16 and also in the footer line 61
+
+4. One positioning (absolute, relative, fixed): style.css line 55
+
+5. Correct use of CSS3 columns OR styling with inline block (specify which): style.css line 82
+
+
+
+
+FORM (25% of grade)
+Provide URL(s) and starting line number(s) for HTML and CSS for each item.
+
+6. Indicate the URL and HTML line number where the form starts. We will look for 4 fields of information and a submit button. opportunities.html and contactus.html
+
+7. List 4 form input types included in your form, with line number in HTML.  opportunities.html
+	--type="email" line 41
+	--type="tel" line 42
+	--type="file" line 48
+	--type="date" line 49
+
+8. We will evaluate appropriateness of the input field type chosen for the type of data collected. (Nothing to submit here.)
+
+
+ACCESSIBILITY (25% of grade) 
+List the URL and starting HTML line number for each item. If you feel it’s helpful, explain what you did to meet accessibility requirements for each item.
+
+9. Headings and document structure (list the URL for the page that exemplifies this best. HTML line numbers not required) index.html
+
+10. Hyperlinks (choose 2 hyperlink examples that exemplify the principles explained in the reading and give HTML line numbers here) Navigation links which provide a color contrast indication of an active link. index.html line 25-27
+
+11. Bullets or numbered lists (include at least one type of list that is not navigation) index.html line 54-56
+
+12. Color and contrast (indicate which contrast checker tool you used and the results of your final design. Some students zip a screenshot of the contrast checker with this file and upload that) 
+--I used https://webaim.org/resources/contrastchecker/ which originally did not 'pass' my initial color choice (which happens to be the color of the business). I ended up making the h1's a darker hue of orange to 'pass' the color checker. 
+
+13. Image alt-text (include at least one image) Company logo in the header , index.html line 18
+
+
+14. Indicate the URL(s) and starting HTML line number(s) demonstrating your navigation best practices (skip links, landmarks, onfocus styling, correct use of headings): index.html line 16-30
+
