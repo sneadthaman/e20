@@ -1,0 +1,221 @@
+/* Flexbox Layout Part 1 */
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    margin-top: 3rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Header Section */
+header {
+    background-color: black;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#logo {
+    margin-left: 15%;
+    align-self: center;
+}
+
+#icons {
+    align-self: center;
+    margin-left: auto;
+    padding-right: 3rem;
+}
+
+#icons > * {
+    padding: 0.5rem;
+}
+
+/* Nav Bar */
+
+nav {
+    background-color: black;
+    padding: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+nav ul li {
+    margin: 0 auto;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: lightskyblue;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-image: url("../images/kc_washroom_CROPPED.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-top: 0;
+}
+
+.jumbo-wrapper {
+    max-width: 70%;
+    margin-left: 10%;
+}
+
+.jumbo-wrapper h1 {
+    color: white;
+    background-color: cornflowerblue;
+    padding: 1rem;
+    font-size: 3rem;
+    letter-spacing: 1rem;
+}
+
+.jumbo-wrapper a {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+}
+
+.jumbo-wrapper a::after {
+    content: url("../images/right-arrow-white.png");
+    padding: 1rem;
+}
+
+/* Featured Products */
+.featured-header{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    font-family: 'Verdana', sans-serif;
+    margin-top: 6rem;
+}
+
+.featured-items {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured-items img {
+    min-width: 80%;
+    height: auto;
+}
+
+.col-1 {
+    flex: 0 0 31%;
+    margin-left: 1%;
+}
+
+.featured-items > * {
+    text-align: center;
+}
+
+.featured-items div > *{
+    color: black;
+}
+
+.featured-items div {
+    border: 1px solid lightgrey;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Aside and Video */
+
+.info {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+aside {
+    text-align: center;
+}
+
+#pip-img {
+    max-width: 100%;
+    height: auto;
+    min-width: 250px;
+}
+
+.col-3 {
+    flex: 0 0 45%;
+}
+
+.video h2 {
+    color: purple;
+    display: none;
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+
+footer, a {
+    color: lightgrey;
+}
+
+footer p, footer .icons {
+    margin-top: 6rem;
+}
+
+@media (max-width: 680px) {
+    .featured-items div {
+        border: none;
+        box-shadow: none;
+    }
+    .order-1 {
+        order: 1;
+    }
+    .order-2 {
+        order: 2;
+    }
+    .order-3{
+        order: 3;
+    }
+    .video h2 {
+        display: block;
+    }
+}

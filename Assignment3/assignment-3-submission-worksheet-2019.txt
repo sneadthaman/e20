@@ -1,0 +1,53 @@
+DGMD E-20 Assignment 4
+
+Your name:
+
+1. Provide a link to the first page of your website:
+
+My site looks the way I want on (choose one): Mac  PC
+
+With this browser (choose one): Firefox Chrome 
+
+
+
+
+PART 1A FLEXBOX LAYOUT
+Provide URL(s) and starting line number(s) for HTML and CSS for each item. 
+
+2. URL for the page coded with Flexbox grid layout. In the CSS, include a comment for where the Flexbox grid layout starts.
+
+3. Number of columns used in your grid system:
+
+4. HTML and CSS line numbers for where  reordering occurs:
+
+
+PART 1B GRID LAYOUT
+5. URL for the page coded with Grid layout. In the CSS, include a comment for where the Grid layout starts.
+
+6. HTML and CSS line numbers for where  reordering occurs:
+
+7. HTML and CSS line numbers for where grid offset OR nested grid occurs:
+
+
+
+
+PART 2: RESPONSIVE IMAGES
+8. Regular image that has responsive qualities:
+HTML line number where image is called:
+
+9. Background image that has responsive qualities:
+HTML line number where image is called:
+Corresponding CSS line number:
+
+
+
+PART 3: CSS LAYOUT PAPER
+If you have created a .DOC(X) file, PDF file, or a text file, zip it with this worksheet as part of your submission. 
+
+If you want to use Google Docs or similar online service, indicate a URL where we might find your paper:
+
+
+PART 5: WOW US (GRAD STUDENTS ONLY)
+Explain why we should be "wowed" by your assignment. Include any relevant HTML and CSS line numbers for us to examine.
+
+
