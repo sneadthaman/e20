@@ -72,7 +72,6 @@ header input[type="text"] {
 /* Grid Template is Declared Here */
 
 main {
-    background-color: ;
     grid-area: main;
     display: grid;
     grid-template-areas: "article1" "article2";
@@ -129,10 +128,6 @@ nav ul li a:hover {
     border-radius: 50px;
 }
 
-nav ul li a:active {
-
-}
-
 /* Footer */
 
 footer {
@@ -146,14 +141,6 @@ footer {
 
 footer a, footer > * {
     color: white;
-}
-
-footer .footer-left {
-
-}
-
-footer .footer-right {
-
 }
 
 @media (min-width: 650px) {
