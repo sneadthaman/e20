@@ -136,6 +136,7 @@ nav ul li a:hover {
     height: auto;
 }
 
+/* Flex Grid Layout */
 .col-1 {
     flex: 0 0 31%;
     margin-left: 1%;
@@ -174,6 +175,7 @@ aside {
     min-width: 250px;
 }
 
+/* Flex Grid Layout */
 .col-3 {
     flex: 0 0 45%;
 }
@@ -217,5 +219,19 @@ footer p, footer .icons {
     }
     .video h2 {
         display: block;
+    }
+
+    .jumbotron {
+        background-image: url("../images/kc_washroom_CROPPED_half.jpg");
+        height: 250px;
+    }
+    .jumbo-wrapper h1 {
+        font-size: 1.5rem;
+    }
+    .jumbo-wrapper a {
+        font-size: 1rem;
+    }
+    .jumbo-wrapper a::after {
+        content: none;
     }
 }

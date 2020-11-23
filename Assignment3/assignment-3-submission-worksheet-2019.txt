@@ -2,11 +2,11 @@ DGMD E-20 Assignment 4
 
 Your name:
 
-1. Provide a link to the first page of your website:
+1. Provide a link to the first page of your website: http://e20.samjanvey.com/e20/Assignment3/
 
-My site looks the way I want on (choose one): Mac  PC
+My site looks the way I want on (choose one): PC
 
-With this browser (choose one): Firefox Chrome 
+With this browser (choose one): Firefox 
 
 
 
@@ -15,39 +15,44 @@ PART 1A FLEXBOX LAYOUT
 Provide URL(s) and starting line number(s) for HTML and CSS for each item. 
 
 2. URL for the page coded with Flexbox grid layout. In the CSS, include a comment for where the Flexbox grid layout starts.
+--http://e20.samjanvey.com/e20/Assignment3/
+--CSS line 139 and 178 in style1.css
 
 3. Number of columns used in your grid system:
+--One one row, 3 columns
+--One row below, 6 columns
 
 4. HTML and CSS line numbers for where  reordering occurs:
+--Re-ordering occurs HTML 50-71, CSS 211-219 (only when page is resized to mobile 680px max-width)
 
 
 PART 1B GRID LAYOUT
-5. URL for the page coded with Grid layout. In the CSS, include a comment for where the Grid layout starts.
+5. URL for the page coded with Grid layout. In the CSS, include a comment for where the Grid layout starts. grid.html (style2.css)
 
-6. HTML and CSS line numbers for where  reordering occurs:
+6. HTML and CSS line numbers for where  reordering occurs: grid.html - HTML lines 28-54 get re-ordered when the screen shrinks below 650px in style2.css on lines 189-194.
 
-7. HTML and CSS line numbers for where grid offset OR nested grid occurs:
+7. HTML and CSS line numbers for where grid offset OR nested grid occurs: grid.html (style2.css) - HTML Lines 29 and 49 (CSS lines 76, 96, 100)
 
 
 
 
 PART 2: RESPONSIVE IMAGES
 8. Regular image that has responsive qualities:
-HTML line number where image is called:
+HTML line number where image is called: 82
 
 9. Background image that has responsive qualities:
-HTML line number where image is called:
-Corresponding CSS line number:
+HTML line number where image is called: index.html line 40
+Corresponding CSS line number: style1.css 224-226
 
 
 
 PART 3: CSS LAYOUT PAPER
 If you have created a .DOC(X) file, PDF file, or a text file, zip it with this worksheet as part of your submission. 
 
-If you want to use Google Docs or similar online service, indicate a URL where we might find your paper:
+If you want to use Google Docs or similar online service, indicate a URL where we might find your paper: The contents of grid.html contain my answers for this section.
 
 
 PART 5: WOW US (GRAD STUDENTS ONLY)
 Explain why we should be "wowed" by your assignment. Include any relevant HTML and CSS line numbers for us to examine.
-
+index.html is a clone of a Shopify site that I made 2 weeks ago (https://covid.janvey.com) just using Flexbox for the layout. The colors and style of grid.html are influenced by Twitter - I used the same color and font scheme.
 

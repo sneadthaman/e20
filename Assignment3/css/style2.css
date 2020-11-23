@@ -1,0 +1,195 @@
+/* Grid Layout Part 2 */
+
+/* Colors 
+Blue - #1da1f2
+Black - #14171A
+D Gray - #657786
+L Gray - #AAB8C2
+XL Gray - #e1e8ed
+XXL Gray - #f5f8fa
+/*
+
+/* font-family: Roboto 
+   font-family: 'Big Shoulders Stencil Text', cursive;
+   
+*/
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #1da1f2;
+}
+
+a {
+    text-decoration: none;
+    color: #1da1f2;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "main"
+        "nav"
+        "footer";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    height: 100vh;
+}
+
+/* Header */
+
+header {
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin-left: 5%;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+header input[type="text"] {
+    height: 3rem;
+    max-width: 40rem;
+    border-radius: 20px;
+    height: 2rem;
+    content: url("../images/search-24.png");
+}
+
+/* Main Section including nested Articles */
+
+main {
+    background-color: ;
+    grid-area: main;
+    display: grid;
+    grid-template-areas: "article1" "article2";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+}
+
+article {
+    padding: 1rem;
+    color: black;
+}
+
+article h1, article h2 {
+    color: #657786;
+}
+
+article h4, article h4 p {
+    margin-left: 5%;
+}
+
+#nested1 {
+    grid-area: article1;
+}
+
+#nested2 {
+    grid-area: article2;
+}
+
+/* Nav Sidebar */
+
+nav {
+    grid-area: nav;
+    border-right:1px solid #1da1f2;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+nav ul li a {
+    padding: .5rem 5rem;
+    font-size: 2rem;
+}
+
+nav ul li a:hover {
+    background-color: #1da1f2;
+    color: white;
+    border-radius: 50px;
+}
+
+nav ul li a:active {
+
+}
+
+/* Footer */
+
+footer {
+    background-color: #1da1f2;
+    grid-area: footer;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+footer a, footer > * {
+    color: white;
+}
+
+footer .footer-left {
+
+}
+
+footer .footer-right {
+
+}
+
+@media (min-width: 650px) {
+    .wrapper {
+        grid-template-columns: 1fr 5fr;
+        grid-template-areas:
+            "header header header header header header"
+            "nav main main main main main"
+            "nav footer footer footer footer footer";
+    }
+    main {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "article1 article2";
+    }
+}
+
+@media (min-width: 1000px) {
+    .wrapper {
+        grid-template-rows: 1fr 4fr 1fr;
+    }
+    header input[type="text"] {
+        width: 40rem;
+    }
+    header input[type="text"]::after {
+        content: url("../images/search-24.png");
+    }
+}
+
+@media (max-width: 650px) {
+    nav {
+        border-right: none;
+    }
+    #nested2 {
+        grid-row: 1;
+    }
+    #nested1 {
+        grid-row: 2;
+    }
+}
