@@ -1,0 +1,55 @@
+DGMD E-20 Assignment 4
+
+Your name:
+
+1. Provide a link to the first page of your website: http://e20p4.samjanvey.com
+
+My site looks the way I want on (choose one): PC
+
+With this browser (choose one): Firefox (1920 x 1080)
+
+
+TRANSITIONS & TRANSFORMS (25% of grade)
+Provide URL(s) and starting line number(s) for HTML and CSS for each item.
+
+2a. Instance #1 of transforms: svg.css line 44
+
+2b. Instance #2 of transforms: svg.css line 49
+
+3a. Instance #1 of transition, which is associated with a transform: svg.css line 59, 63
+
+3b. Instance #2 of transition: svg.css line 76
+
+
+CSS ANIMATION (25% of grade)
+Provide URL(s) and starting line number(s) for HTML and CSS for each item. 
+
+For the animation with at least 4 keyframes:
+4. Keyframes start on this CSS line number: svg.css line 30
+
+5a. First property that changes through the 4 keyframes: left
+
+5b. Second property that changes through the 4 keyframes: top
+
+6. This animation is activated on (choose one):  page load
+page load/hover/active state of link 
+
+SVG PLUS ANIMATION (25% of grade)
+
+7. Indicate where the SVG starts (separate file or starting HTML line number): svg.html line 20
+
+8. Attribution for SVG, or indicate that you created it yourself: thenounproject.com, By Hey Rabbit, TH 
+In the UFO Collection. (I have a pro license which is why I didn't attribute it on the page.)
+
+9a. SVG animation keyframe location (starting CSS line number): svg.css line 20-52
+
+9b. URL location of the SVG animation: http://e20p4.samjanvey.com/svg.html
+
+
+CSS FILTERS (25% of grade) 
+Provide URL(s) and starting line number(s) for HTML and CSS for each item.
+
+10a. CSS filter #1, which was transitioned/animated: svg.html, svg.css line 34
+
+10b. CSS filter #2: svg.html, svg.css line 77
+
