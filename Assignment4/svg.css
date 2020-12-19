@@ -1,0 +1,111 @@
+html {
+    box-sizing: border-box;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url('./assets/svg/man_flying_space.svg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+
+#space-ship {
+    height: 100vh;
+}
+
+#space-ship svg {
+    animation-name: spaceship;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: 2;
+    position: relative;
+    top: 50px;
+}
+
+@keyframes spaceship {
+    0% {
+        left: 0px;
+        top: 50px;
+        filter: blur(0px);
+    }
+    25% {
+        left: 25%;
+        top: 40%;
+        filter: blur(5px);
+    }
+    50% {
+        left: 30%;
+        top: 8%;
+        transform: rotate(180deg);
+    }
+    100% {
+        left: 75%;
+        top: 50%;
+        transform: rotate(360deg);
+        filter: blur(0px);
+    }
+}
+
+.button {
+    font-size: 3em;
+    position: absolute;
+    bottom: 25%;
+    left: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 14px;
+    border: 4px solid white;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+    transition: .5s;
+    filter: drop-shadow(4px 4px 10px green);
+}
+
+#space-alien {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    animation-name: alien;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: 2;
+}
+
+@keyframes alien {
+    0% {
+        right: 5%;
+        bottom: 5%;
+    }
+    25% {
+        right: 10%;
+        bottom: 10%;
+        transform: translateX(50px);
+    }
+    50% {
+        right: 25%;
+        bottom: 25%;
+        transform: translate(20px);
+    }
+    75% {
+        right: 25%;
+        bottom: 35%;
+    }
+    100% {
+        right: 25%;
+        bottom: 40%;
+    }
+}
+
